@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garden Goals </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f9f3;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #388E3C;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      flex: 1 1 200px;
+    }
+    footer {
+      text-align: center;
+      background: #2E7D32;
+      color: white;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Garden Goals</h1>
+    <p>Grow Your Vision with Garden Goals</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Lawn Mowing</h3>
+        <p>Regular mowing to keep your lawn looking neat and healthy.</p>
+      </div>
+      <div class="service">
+        <h3>Hedge Trimming</h3>
+        <p>Expert hedge shaping and maintenance for tidy boundaries.</p>
+      </div>
+      <div class="service">
+        <h3>Weeding & Planting</h3>
+        <p>Keep your beds clear and your flowers blooming beautifully.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Garden Goals, we believe your outdoor space should be as beautiful and inspiring as the life you’re building. Whether it’s a peaceful retreat, a bold landscape vision, or a fresh start for your backyard, we’re here to bring your garden goals to life. Founded on passion, creativity, and a love for nature, Garden Goals is more than just a business—it’s a movement. We help people transform ordinary spaces into living works of art. From design inspiration and expert advice to premium products and services, everything we do is rooted in helping you grow with confidence. Our mission is simple: to make dream gardens achievable for everyone—whether you're a seasoned green thumb or planting your very first seed. With a sharp eye for detail, a dedication to quality, and a deep respect for nature, we’re here to guide, support, and inspire you every step of the way. Welcome to Garden Goals—where your vision takes root.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: gardengoalsltd@gmail.com</p>
+    <p>Phone: 07360271259</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GreenThumb Gardening. All rights reserved.</p>
+  </footer>
+</body>
+</html>
